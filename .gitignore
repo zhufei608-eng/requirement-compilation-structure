@@ -9,3 +9,7 @@ docs/
 !/scripts/package.py
 
 AGENTS.md
+
+# analysis/arc_run.py --seed-modules cache (~128 MB, local only)
+analysis/npm_cache/
+analysis/npm_cache.tmp/

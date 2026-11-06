@@ -1,0 +1,55 @@
+stage_id,task,calls,kinds,max_round,exhausted,llm_s,prompt_tok,cached_tok,completion_tok,reasoning_tok
+08,UI 2/3 registration / Implementation,7,edit_round=5 read_files=2,5,False,149.4,96263,59136,21043,7122
+10,Independent acceptance / REQ-4 / Generation,18,edit_round=10 read_files=8,10,True,93.4,216955,132096,6100,5054
+10,Independent acceptance / REQ-1 / Generation,15,edit_round=10 read_files=5,10,True,74.4,165915,92160,4776,4057
+10,E2E requirement 1/4 REQ-1 / Test Generation,5,edit_round=1 read_files=4,1,False,68.5,73680,58880,8421,7432
+09,Trigger design REQ-2,1,proposal=1,1,False,60.0,7347,0,9698,8875
+05,Backend API design REQ-2,1,proposal=1,1,False,59.2,4016,0,8819,6738
+01,Visual analysis register.png,1,proposal=1,1,False,57.2,1327,1280,2871,2186
+08,UI 1/3 home / Implementation,3,context_query=1 edit_round=1 read_files=1,1,False,56.4,36359,24064,7301,4270
+10,E2E requirement 2/4 REQ-2 / Interaction Implementation,2,edit_round=1 read_files=1,1,False,54.7,62069,32896,7827,6915
+07,UI/data design 2/4 REQ-2,1,proposal=1,1,False,54.5,3743,0,7393,5106
+10,Independent acceptance / REQ-3 / Generation,9,edit_round=5 read_files=4,5,False,51.7,90710,64768,4907,2269
+10,Independent acceptance / REQ-2 / Generation,7,edit_round=2 read_files=5,2,False,50.1,92575,58112,5950,2068
+06,API-register-account / Implementation,4,edit_round=1 read_files=3,1,False,48.8,49858,38272,5694,3577
+10,E2E requirement 2/4 REQ-2 / Test Generation,3,context_query=1 edit_round=1 read_files=1,1,False,48.1,70045,47616,5659,4044
+09,Trigger design REQ-3,1,proposal=1,1,False,45.5,5576,0,6482,5775
+06,REQ-4 / API-logout-current-session (uses: REQ-4) / Test Generation,6,edit_round=3 read_files=3,3,False,44.2,47568,33408,5088,2997
+01,Visual analysis homepage.png,1,proposal=1,1,False,40.1,1318,1280,3066,2335
+06,API-login / Implementation,4,edit_round=1 read_files=3,1,False,38.0,51271,37888,4710,3096
+01,Visual analysis login.png,1,proposal=1,1,False,36.8,1327,1280,2295,1559
+07,UI/data design 1/4 REQ-1,1,proposal=1,1,False,33.4,3626,0,5004,4029
+10,E2E requirement 4/4 REQ-4 / Test Generation,5,context_query=1 edit_round=1 read_files=3,1,False,33.3,81590,62720,2499,1064
+06,REQ-3 / API-login (uses: REQ-3) / Test Generation,5,edit_round=1 read_files=4,1,False,30.9,43948,32768,3363,1315
+06,"REQ-1 / API-get-current-session (uses: REQ-1, REQ-2, REQ-3, REQ-4) / Test Generation",5,context_query=1 edit_round=1 read_files=3,1,False,29.6,41501,31616,2348,1068
+06,REQ-2 / API-register-account (uses: REQ-2) / Test Generation,6,context_query=1 edit_round=1 read_files=4,1,False,27.7,56129,45696,2651,590
+03,Obligation inference REQ-2,1,proposal=1,1,False,27.1,2616,0,1844,1626
+05,Backend API design REQ-4,1,proposal=1,1,False,27.1,6021,0,2904,2313
+10,E2E requirement 3/4 REQ-3 / Test Generation,3,edit_round=1 read_files=2,1,False,26.7,56366,36992,3271,1980
+08,UI 3/3 login / Implementation,2,edit_round=1 read_files=1,1,False,25.1,25388,10752,4223,1419
+05,Backend API design REQ-3,1,proposal=1,1,False,24.1,5406,0,2923,2221
+10,Independent acceptance / REQ-2 / Test review,2,edit_round=1 read_files=1,1,False,22.5,30098,14848,2618,2085
+03,Obligation inference REQ-3,1,proposal=1,1,False,22.2,2049,0,1163,1034
+07,UI/data design 3/4 REQ-3,1,proposal=1,1,False,19.7,5068,0,3041,1883
+02,Schema design REQ-3,3,context_query=2 proposal=1,1,False,18.3,8607,5120,636,556
+05,Backend API design REQ-1,1,proposal=1,1,False,17.9,3342,0,1988,1558
+09,Trigger design REQ-4,1,proposal=1,1,False,17.4,4481,0,2224,1895
+04,Startup data / REQ-1,1,edit_round=1,1,False,15.3,5101,0,921,486
+02,Schema design REQ-2,1,proposal=1,1,False,15.0,2274,1408,1035,327
+04,SQL implementation Session,1,edit_round=1,1,False,14.5,3628,0,119,6
+06,API-get-current-session / Implementation,2,edit_round=2,2,False,14.0,19813,8960,1961,331
+10,E2E requirement 3/4 REQ-3 / Interaction Implementation,1,edit_round=1,1,False,11.1,24307,3968,1638,801
+10,E2E requirement 1/4 REQ-1 / Interaction Implementation,2,edit_round=1 read_files=1,1,False,9.9,33688,18176,980,312
+03,Obligation inference REQ-1,1,proposal=1,1,False,8.9,2492,0,916,766
+07,UI/data design 4/4 REQ-4,1,proposal=1,1,False,8.8,5662,0,1131,955
+09,Trigger design REQ-1,1,proposal=1,1,False,7.9,4265,0,921,545
+06,API-logout-current-session / Implementation,1,edit_round=1,1,False,7.7,9585,2688,885,148
+04,SQL implementation Account,1,edit_round=1,1,False,7.4,3162,0,335,65
+04,Startup data / REQ-3,1,edit_round=1,1,False,7.4,4962,2048,523,411
+10,E2E requirement 4/4 REQ-4 / Interaction Implementation,1,edit_round=1,1,False,6.8,18825,4096,764,113
+02,Schema design REQ-1,1,proposal=1,1,False,6.6,2316,0,677,383
+04,Startup data / REQ-4,1,edit_round=1,1,False,6.5,4871,2048,299,291
+03,Obligation inference REQ-4,1,proposal=1,1,False,5.5,1865,0,512,435
+10,Independent acceptance / REQ-3 / Test review,1,edit_round=1,1,False,4.9,10407,0,390,135
+04,Startup data / REQ-2,1,edit_round=1,1,False,4.0,5036,2048,291,283
+02,Schema design REQ-4,1,proposal=1,1,False,3.1,2682,0,111,78
